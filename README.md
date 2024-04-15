@@ -32,20 +32,27 @@ The following features was used to predict the likes
 - Subscriber_Count
 
 The model which we used was the XGBoost (Extreme Gradient Boosting). XGBoost is an ensemble learning technique that combines multiple decision trees to improve predictive performance.
-- R-square: 0.9597375701889096
-- RMSE:110538.93938925382
-- MAE:31216.7363869918
+
+- RMSE: 110538.93938925382
+- R-squared value: 0.9597375701889096
+- MAE: 31216.7363869918
+- MSE: 12218857121.30113
 
 ## How to Use
 
 1) <code>git clone TDL_PROJECT_CODE_Team23.ipynb</code>
 
-2) <code>cd YouTube-Video-Like-Count-Predictor</code>
-
-3) Run the <code>test_input.py</code> and provide the video ID as system arguement.
+## Method
+- Load dataset and conduct exploratory data analysis
+- Check for missing values and column datatypes
+- Map category names to IDs and validate against IN_category_id.json
+- One-hot encode categories for numerical representation
+- Perform sentiment analysis using TextBlob on top 10 comments per video
+- Analyze video tags for frequency
+- Utilize XGBoost regression to determine most important features
 
 ## Limitations
-Over time the predictions have to be run again as its not real time.
+Overtime predictions have to be run again as its not based of real time.
 
 ## Conclusion and Future Work
 Market Analysis:
