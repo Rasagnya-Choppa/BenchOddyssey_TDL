@@ -24,7 +24,7 @@ methods and sources. I have used the YouTube API to gather video details such as
 - Comment Count
 - Thumbnail_Link etc
 
-The following features was used to predict the likes
+The following features was used to predict the likes -
 - view_count
 - comment_count
 - Sentiment_Scores
