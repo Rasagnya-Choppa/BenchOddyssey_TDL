@@ -1,6 +1,6 @@
 # TOPICS WITH DEEP LEARNING
 
-   TEAM : BENCH ODDESSY
+   TEAM : BENCH ODYSSEY
    TEAM NO: 23
    
 - PES2UG21CS148 Choppa Rasagnya
@@ -55,8 +55,12 @@ The high error in a few cases can be attributed to the fact that the data set is
 This error can be improved by collecting more data so that the data set is less skewed and more evenly distributed.
 
 ## Conclusion and Future Work
-The first conclusion which can be drawn from this research is that the popularity of a video in terms of its like count can be predicted fairly well from features such as the view count, comment count, dislike count, channel subscriber count, channel video count, total shares across social media platforms along with features such as finding out whether the description of the video contains links to any third party website or any other social media platforms such as Facebook, Twitter, Instagram etc.
+Market Analysis:
+Analyze trends in video popularity, viewership, and engagement to understand audience preferences and behavior in the Indian market.
 
-Future research should also look into deriving features from image thumbnails.  Intuition says that perhaps the presence of people’s faces in video thumbnails results in more likes than when it is not.
+Thumbnail Analysis:
+Identify the influence of a thumbnail of a video and how it performs using CNN’s and other Deep learning techniques. 
 
-Another area where this model can be improved is by considering the content of the video into account. For example, if the person in the video asks the viewer to like the video then the viewers are more likely to like the video. Similarly, supposing a YouTuber announces a prize give away competition and asks the people to like the video to get enrolled in the competition, there will definitely be a higher number of likes on that video.
+Sentiment Analysis: 
+Utilize comments data to gauge audience sentiment towards specific topics or creators, aiding in reputation management and content optimization strategies.
+
