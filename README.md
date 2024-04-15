@@ -33,10 +33,10 @@ The third method I used for feature engineering was finding out the number of ti
 - Pinterest Shares
 - Total Shares
 
-The model which I used was the Stochastic Gradient Descent based Linear Regression model. This module was imported from the [Scikit Learn](http://scikit-learn.org/) library. The best results (with highest R<sup>2</sup> error) were obtained with the following parameters :
-- loss = squared_epsilon_insensitive
-- penalty = none
-- alpha = 1e-05
+The model which we used was the XGBoost (Extreme Gradient Boosting). XGBoost is an ensemble learning technique that combines multiple decision trees to improve predictive performance.
+- R-square=0.95
+- MSME
+- MSE
 
 ## How to Use
 I have developed a command line tool to test out the model. 
