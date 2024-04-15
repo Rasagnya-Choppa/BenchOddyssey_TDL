@@ -1,11 +1,11 @@
 # TOPICS WITH DEEP LEARNING
 
-## TEAM : BENCH ODDESSY
-## TEAM NO: 23
+   TEAM : BENCH ODDESSY
+   TEAM NO: 23
 
-## PES2UG21CS158 Deepika Indran
-## PES2UG21CS148 Rasagnya Choppa
-## PES2UG21CS160 Devansh Guttikonda 
+PES2UG21CS158 Deepika Indran
+PES2UG21CS148 Rasagnya Choppa
+PES2UG21CS160 Devansh Guttikonda 
 
 ## Predicting the Likes Count of a YouTube Video
 
