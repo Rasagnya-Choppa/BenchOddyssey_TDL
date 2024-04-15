@@ -9,9 +9,7 @@
 
 ## Predicting the Likes Count of a YouTube Video
 
-A command line tool to model the likes count of a YouTube video as a function of various
-features. Since this task focused on feature engineering I have tried to obtain relevant features for the data set from different
-methods and sources. I have used the YouTube API to gather video details such as -
+Most popular Indian Youtube videos from June to November 2023 were scraped using Youtube's API and the following were the attributes obtained-
 - Video_id
 - Title
 - PublishedAt
