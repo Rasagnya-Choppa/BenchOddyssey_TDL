@@ -40,15 +40,6 @@ The model which we used was the XGBoost (Extreme Gradient Boosting). XGBoost is 
 
 1) <code>git clone TDL_PROJECT_CODE_Team23.ipynb</code>
 
-## Method
-- Load dataset and conduct exploratory data analysis
-- Check for missing values and column datatypes
-- Map category names to IDs and validate against IN_category_id.json
-- One-hot encode categories for numerical representation
-- Perform sentiment analysis using TextBlob on top 10 comments per video
-- Analyze video tags for frequency
-- Utilize XGBoost regression to determine most important features
-
 ## Limitations
 
 Predictions need to be periodically re-evaluated as the analysis isn't based on real-time data.
