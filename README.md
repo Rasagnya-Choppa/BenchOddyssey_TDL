@@ -12,31 +12,29 @@
 A command line tool to model the likes count of a YouTube video as a function of various
 features. Since this task focused on feature engineering I have tried to obtain relevant features for the data set from different
 methods and sources. I have used the YouTube API to gather video details such as -
+- Video_id
+- Title
+- PublishedAt
+- ChannelId
+- ChannelTitle
+- Trending_Date
+- Tags
 - View Count
+- Likes
 - Comment Count
-- Dislike Count
-- Favorite Count
-- Life of video
-- Duration
-- Category etc.
+- Thumbnail_Link etc
 
-Another set of features was gathered from the characteristics of the channel via which the video was uploaded. Some of the features in this category were -
-- Channel Subscriber Count
-- Channel View Count 
-- Channel Video Count
-- Channel Comment Count
-
-The third method I used for feature engineering was finding out the number of times the video was shared on other social media platforms such as Facebook, Google Plus, Linkedin and Pinterest. Hence the next 5 features were generated as well -
-- Facebook Shares
-- Google Plus Shares
-- LinkedIn Shares
-- Pinterest Shares
-- Total Shares
+The predicted dataset contains the next 5 features generated as well -
+- view_count
+- comment_count
+- Sentiment_Scores
+- time_till_trend
+- Subscriber_Count
 
 The model which we used was the XGBoost (Extreme Gradient Boosting). XGBoost is an ensemble learning technique that combines multiple decision trees to improve predictive performance.
-- R-square=0.95
-- MSME
-- MSE
+- R-square: 0.9597375701889096
+- RMSE:110538.93938925382
+- MAE:31216.7363869918
 
 ## How to Use
 I have developed a command line tool to test out the model. 
