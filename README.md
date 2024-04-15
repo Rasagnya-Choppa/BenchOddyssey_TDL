@@ -24,7 +24,7 @@ methods and sources. I have used the YouTube API to gather video details such as
 - Comment Count
 - Thumbnail_Link etc
 
-The predicted dataset contains the next 5 features generated as well -
+The following features was used to predict the likes
 - view_count
 - comment_count
 - Sentiment_Scores
@@ -37,7 +37,6 @@ The model which we used was the XGBoost (Extreme Gradient Boosting). XGBoost is 
 - MAE:31216.7363869918
 
 ## How to Use
-I have developed a command line tool to test out the model. 
 
 1) <code>git clone https://github.com/mayank26saxena/YouTube-Video-Like-Count-Predictor.git</code>
 
@@ -46,11 +45,7 @@ I have developed a command line tool to test out the model.
 3) Run the <code>test_input.py</code> and provide the video ID as system arguement.
 
 ## Limitations
-The file <code>get_data.py</code> can be run by providing the video ID as a command line arguement. The output will be the predicted like count , the actual like count and the error.
-
-The high error in a few cases can be attributed to the fact that the data set is highly skewed with large number of videos having single digit or no likes but very few videos having likes greater than 10,000 with the highest like count of any video in the data set being <code>936889</code>
-
-This error can be improved by collecting more data so that the data set is less skewed and more evenly distributed.
+Over time the predictions have to be run again as its not real time.
 
 ## Conclusion and Future Work
 Market Analysis:
