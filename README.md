@@ -52,15 +52,16 @@ The model which we used was the XGBoost (Extreme Gradient Boosting). XGBoost is 
 - Utilize XGBoost regression to determine most important features
 
 ## Limitations
-Overtime predictions have to be run again as its not based of real time.
+
+Predictions need to be periodically re-evaluated as the analysis isn't based on real-time data.
 
 ## Conclusion and Future Work
-Market Analysis:
+- Market Analysis:
 Analyze trends in video popularity, viewership, and engagement to understand audience preferences and behavior in the Indian market.
 
-Thumbnail Analysis:
+- Thumbnail Analysis:
 Identify the influence of a thumbnail of a video and how it performs using CNN’s and other Deep learning techniques. 
 
-Sentiment Analysis: 
+- Sentiment Analysis: 
 Utilize comments data to gauge audience sentiment towards specific topics or creators, aiding in reputation management and content optimization strategies.
 
