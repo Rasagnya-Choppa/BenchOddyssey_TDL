@@ -38,7 +38,7 @@ The model which we used was the XGBoost (Extreme Gradient Boosting). XGBoost is 
 
 ## How to Use
 
-1) <code>git clone https://github.com/mayank26saxena/YouTube-Video-Like-Count-Predictor.git</code>
+1) <code>git clone TDL_PROJECT_CODE_Team23.ipynb</code>
 
 2) <code>cd YouTube-Video-Like-Count-Predictor</code>
 
